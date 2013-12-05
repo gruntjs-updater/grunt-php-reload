@@ -1,0 +1,41 @@
+{
+  "name": "grunt-php-version",
+  "version": "0.1.0",
+  "description": "Include livereload script on target file befor </body> tag",
+  "keywords": [
+    "gruntplugin",
+    "php"
+  ],
+  "homepage": "https://github.com/roudrik/grunt-php-reload",
+  "bugs": {
+    "url": "https://github.com/roudrik/grunt-php-reload/issues"
+  },
+  "author": {
+    "name": "Rodrigo Rezende",
+    "email": "rodrigo@rznd.com.br",
+    "url": "http://rnzd.com.br"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/roudrik/grunt-php-reload.git"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-contrib-jshint": "~0.6.3"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.0"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "licenses": {
+    "type": "MIT"
+  },
+  "files": [
+    "tasks/phpreload.js"
+  ]
+}
